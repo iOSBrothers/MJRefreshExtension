@@ -1,0 +1,467 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6C9C83E51F66833700AE9993 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C9C83E41F66833700AE9993 /* main.m */; };
+		6C9C83E81F66833700AE9993 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C9C83E71F66833700AE9993 /* AppDelegate.m */; };
+		6C9C83EB1F66833700AE9993 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C9C83EA1F66833700AE9993 /* ViewController.m */; };
+		6C9C83EE1F66833700AE9993 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6C9C83EC1F66833700AE9993 /* Main.storyboard */; };
+		6C9C83F01F66833700AE9993 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6C9C83EF1F66833700AE9993 /* Assets.xcassets */; };
+		6C9C83F31F66833700AE9993 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6C9C83F11F66833700AE9993 /* LaunchScreen.storyboard */; };
+		6C9C83FF1F66855200AE9993 /* RXRefreshHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C9C83FE1F66855200AE9993 /* RXRefreshHeader.m */; };
+		6C9C84021F6685EF00AE9993 /* RXRefreshFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C9C84011F6685EF00AE9993 /* RXRefreshFooter.m */; };
+		6C9C84061F668A2900AE9993 /* RXRefreshGifFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C9C84051F668A2900AE9993 /* RXRefreshGifFooter.m */; };
+		6C9C840A1F66914700AE9993 /* RXRefreshJDFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C9C84091F66914700AE9993 /* RXRefreshJDFooter.m */; };
+		6C9C840E1F66AECE00AE9993 /* girl.gif in Resources */ = {isa = PBXBuildFile; fileRef = 6C9C840D1F66AECE00AE9993 /* girl.gif */; };
+		97E6B7FD42967402E5C30EEE /* Pods_MJRefreshExtension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD73378F14991284D165F398 /* Pods_MJRefreshExtension.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0FA50DDD075C899D431D3660 /* Pods-MJRefreshExtension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MJRefreshExtension.release.xcconfig"; path = "Pods/Target Support Files/Pods-MJRefreshExtension/Pods-MJRefreshExtension.release.xcconfig"; sourceTree = "<group>"; };
+		6C9C83E01F66833700AE9993 /* MJRefreshExtension.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MJRefreshExtension.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C9C83E41F66833700AE9993 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6C9C83E61F66833700AE9993 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6C9C83E71F66833700AE9993 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6C9C83E91F66833700AE9993 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		6C9C83EA1F66833700AE9993 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		6C9C83ED1F66833700AE9993 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6C9C83EF1F66833700AE9993 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6C9C83F21F66833700AE9993 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6C9C83F41F66833700AE9993 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6C9C83FD1F66855200AE9993 /* RXRefreshHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RXRefreshHeader.h; sourceTree = "<group>"; };
+		6C9C83FE1F66855200AE9993 /* RXRefreshHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RXRefreshHeader.m; sourceTree = "<group>"; };
+		6C9C84001F6685EF00AE9993 /* RXRefreshFooter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RXRefreshFooter.h; sourceTree = "<group>"; };
+		6C9C84011F6685EF00AE9993 /* RXRefreshFooter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RXRefreshFooter.m; sourceTree = "<group>"; };
+		6C9C84041F668A2900AE9993 /* RXRefreshGifFooter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RXRefreshGifFooter.h; sourceTree = "<group>"; };
+		6C9C84051F668A2900AE9993 /* RXRefreshGifFooter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RXRefreshGifFooter.m; sourceTree = "<group>"; };
+		6C9C84081F66914700AE9993 /* RXRefreshJDFooter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RXRefreshJDFooter.h; sourceTree = "<group>"; };
+		6C9C84091F66914700AE9993 /* RXRefreshJDFooter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RXRefreshJDFooter.m; sourceTree = "<group>"; };
+		6C9C840D1F66AECE00AE9993 /* girl.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = girl.gif; sourceTree = "<group>"; };
+		8A61E88F3E86D1BAA19D47BE /* Pods-MJRefreshExtension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MJRefreshExtension.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MJRefreshExtension/Pods-MJRefreshExtension.debug.xcconfig"; sourceTree = "<group>"; };
+		CD73378F14991284D165F398 /* Pods_MJRefreshExtension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MJRefreshExtension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6C9C83DD1F66833700AE9993 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				97E6B7FD42967402E5C30EEE /* Pods_MJRefreshExtension.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4FE1B086ADAC55836778575D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8A61E88F3E86D1BAA19D47BE /* Pods-MJRefreshExtension.debug.xcconfig */,
+				0FA50DDD075C899D431D3660 /* Pods-MJRefreshExtension.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		6C9C83D71F66833700AE9993 = {
+			isa = PBXGroup;
+			children = (
+				6C9C83E21F66833700AE9993 /* MJRefreshExtension */,
+				6C9C83E11F66833700AE9993 /* Products */,
+				4FE1B086ADAC55836778575D /* Pods */,
+				6E3DAF949AD68FF55857257C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		6C9C83E11F66833700AE9993 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6C9C83E01F66833700AE9993 /* MJRefreshExtension.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6C9C83E21F66833700AE9993 /* MJRefreshExtension */ = {
+			isa = PBXGroup;
+			children = (
+				6C9C83FB1F6684D200AE9993 /* MJRefreshExtension */,
+				6C9C83E61F66833700AE9993 /* AppDelegate.h */,
+				6C9C83E71F66833700AE9993 /* AppDelegate.m */,
+				6C9C83E91F66833700AE9993 /* ViewController.h */,
+				6C9C83EA1F66833700AE9993 /* ViewController.m */,
+				6C9C83EC1F66833700AE9993 /* Main.storyboard */,
+				6C9C83EF1F66833700AE9993 /* Assets.xcassets */,
+				6C9C83F11F66833700AE9993 /* LaunchScreen.storyboard */,
+				6C9C83F41F66833700AE9993 /* Info.plist */,
+				6C9C83E31F66833700AE9993 /* Supporting Files */,
+			);
+			path = MJRefreshExtension;
+			sourceTree = "<group>";
+		};
+		6C9C83E31F66833700AE9993 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6C9C83E41F66833700AE9993 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6C9C83FB1F6684D200AE9993 /* MJRefreshExtension */ = {
+			isa = PBXGroup;
+			children = (
+				6C9C840D1F66AECE00AE9993 /* girl.gif */,
+				6C9C84071F6690F900AE9993 /* 京东秒杀 */,
+				6C9C84031F6689FA00AE9993 /* 多张gif动画 */,
+				6C9C83FC1F66853100AE9993 /* 一张gif动画 */,
+			);
+			path = MJRefreshExtension;
+			sourceTree = "<group>";
+		};
+		6C9C83FC1F66853100AE9993 /* 一张gif动画 */ = {
+			isa = PBXGroup;
+			children = (
+				6C9C83FD1F66855200AE9993 /* RXRefreshHeader.h */,
+				6C9C83FE1F66855200AE9993 /* RXRefreshHeader.m */,
+				6C9C84001F6685EF00AE9993 /* RXRefreshFooter.h */,
+				6C9C84011F6685EF00AE9993 /* RXRefreshFooter.m */,
+			);
+			path = "一张gif动画";
+			sourceTree = "<group>";
+		};
+		6C9C84031F6689FA00AE9993 /* 多张gif动画 */ = {
+			isa = PBXGroup;
+			children = (
+				6C9C84041F668A2900AE9993 /* RXRefreshGifFooter.h */,
+				6C9C84051F668A2900AE9993 /* RXRefreshGifFooter.m */,
+			);
+			path = "多张gif动画";
+			sourceTree = "<group>";
+		};
+		6C9C84071F6690F900AE9993 /* 京东秒杀 */ = {
+			isa = PBXGroup;
+			children = (
+				6C9C84081F66914700AE9993 /* RXRefreshJDFooter.h */,
+				6C9C84091F66914700AE9993 /* RXRefreshJDFooter.m */,
+			);
+			path = "京东秒杀";
+			sourceTree = "<group>";
+		};
+		6E3DAF949AD68FF55857257C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CD73378F14991284D165F398 /* Pods_MJRefreshExtension.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6C9C83DF1F66833700AE9993 /* MJRefreshExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6C9C83F71F66833700AE9993 /* Build configuration list for PBXNativeTarget "MJRefreshExtension" */;
+			buildPhases = (
+				447B5B71E77B67152DE5401D /* [CP] Check Pods Manifest.lock */,
+				6C9C83DC1F66833700AE9993 /* Sources */,
+				6C9C83DD1F66833700AE9993 /* Frameworks */,
+				6C9C83DE1F66833700AE9993 /* Resources */,
+				4E99D2208D972620DC60F0F3 /* [CP] Embed Pods Frameworks */,
+				A4D0ED79F090B74627F5783F /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MJRefreshExtension;
+			productName = MJRefreshExtension;
+			productReference = 6C9C83E01F66833700AE9993 /* MJRefreshExtension.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6C9C83D81F66833700AE9993 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "https://github.com/srxboys";
+				TargetAttributes = {
+					6C9C83DF1F66833700AE9993 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = PV5ANGHDB3;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 6C9C83DB1F66833700AE9993 /* Build configuration list for PBXProject "MJRefreshExtension" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6C9C83D71F66833700AE9993;
+			productRefGroup = 6C9C83E11F66833700AE9993 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6C9C83DF1F66833700AE9993 /* MJRefreshExtension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6C9C83DE1F66833700AE9993 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C9C83F31F66833700AE9993 /* LaunchScreen.storyboard in Resources */,
+				6C9C83F01F66833700AE9993 /* Assets.xcassets in Resources */,
+				6C9C840E1F66AECE00AE9993 /* girl.gif in Resources */,
+				6C9C83EE1F66833700AE9993 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		447B5B71E77B67152DE5401D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MJRefreshExtension-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4E99D2208D972620DC60F0F3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-MJRefreshExtension/Pods-MJRefreshExtension-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/MJRefresh/MJRefresh.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MJRefresh.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MJRefreshExtension/Pods-MJRefreshExtension-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A4D0ED79F090B74627F5783F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MJRefreshExtension/Pods-MJRefreshExtension-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6C9C83DC1F66833700AE9993 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C9C83EB1F66833700AE9993 /* ViewController.m in Sources */,
+				6C9C83E81F66833700AE9993 /* AppDelegate.m in Sources */,
+				6C9C83FF1F66855200AE9993 /* RXRefreshHeader.m in Sources */,
+				6C9C84061F668A2900AE9993 /* RXRefreshGifFooter.m in Sources */,
+				6C9C84021F6685EF00AE9993 /* RXRefreshFooter.m in Sources */,
+				6C9C83E51F66833700AE9993 /* main.m in Sources */,
+				6C9C840A1F66914700AE9993 /* RXRefreshJDFooter.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6C9C83EC1F66833700AE9993 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6C9C83ED1F66833700AE9993 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6C9C83F11F66833700AE9993 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6C9C83F21F66833700AE9993 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6C9C83F51F66833700AE9993 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		6C9C83F61F66833700AE9993 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6C9C83F81F66833700AE9993 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8A61E88F3E86D1BAA19D47BE /* Pods-MJRefreshExtension.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = PV5ANGHDB3;
+				HEADER_SEARCH_PATHS = "\"$(SRCROOT)/Pods/MJRefresh\"";
+				INFOPLIST_FILE = MJRefreshExtension/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = srxboys.MJRefreshExtension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6C9C83F91F66833700AE9993 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0FA50DDD075C899D431D3660 /* Pods-MJRefreshExtension.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = PV5ANGHDB3;
+				HEADER_SEARCH_PATHS = "\"$(SRCROOT)/Pods/MJRefresh\"";
+				INFOPLIST_FILE = MJRefreshExtension/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = srxboys.MJRefreshExtension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6C9C83DB1F66833700AE9993 /* Build configuration list for PBXProject "MJRefreshExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C9C83F51F66833700AE9993 /* Debug */,
+				6C9C83F61F66833700AE9993 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6C9C83F71F66833700AE9993 /* Build configuration list for PBXNativeTarget "MJRefreshExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C9C83F81F66833700AE9993 /* Debug */,
+				6C9C83F91F66833700AE9993 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6C9C83D81F66833700AE9993 /* Project object */;
+}
